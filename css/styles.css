@@ -37,13 +37,16 @@ header {
 .hero-screen {
     color: #fff;
     padding: 40px 0;
-    background-image: url("../img/back-g.png");
+    background-image: url("../img/992back.png");
     margin-bottom: 40px;
 }
 
 .hero-left {
     position: relative;
     margin-left: 20px;
+}
+.woman-img{
+    margin-top: 172px;
 }
 
 .header-links {
@@ -53,13 +56,13 @@ header {
     font-weight: 400;
     display: flex;
     gap: 110px;
+    margin-left: 20px;
     margin-bottom: 20px;
     list-style: none;
     text-decoration: none;
     color: #fff;
     position: absolute;
     top: 30px;
-    margin-left: 382px;
 }
 .header-links li a{
     text-align: center;
@@ -165,25 +168,18 @@ h1 {
 }
 
 .pillow-img {
-    max-width: 600px;
+    max-width: 540px;
     margin-bottom: 20px;
     padding-left: 80px;
     position: absolute;
     top: 310px;
-    right: -270px;
+    right: -260px;
 }
-
-.woman-img {
-    margin-top: 60px;
-    left: 80px;
-    max-width: 340px;
-}
-
 
 .discount-banner {
     position: absolute;
     top: 300px;
-    left: -50px;
+    left: -440px;
     background: linear-gradient(45deg, #ff3e3e, #ffc107);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     color: #fff;

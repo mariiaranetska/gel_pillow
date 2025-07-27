@@ -1,0 +1,882 @@
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+        padding: 0 40px;
+    }
+    .discount-banner{
+        top: 312px;
+        left: -634px;
+    }
+    .woman-img{
+        display: none;
+    }
+    .hero-screen{
+background-image: url("../img/1400back.png");
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 60px;
+    }
+    .woman-img{
+        display: none;
+    }
+    .discount-banner{
+        left: -554px;
+        transform: rotate(24deg);
+        top: 298px;
+    }
+
+    .hero-screen{
+        background-image: url("../img/1600back.png");
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 20px;
+    }
+    .discount-banner{
+        top: 318px;
+        left: -648px;
+    }
+    .arrow-bottom{
+        display: none;
+    }
+    .header-links {
+        gap: 20px;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    .comfort-cards{
+        gap: 22px;
+    }
+    .woman-img{
+        display: none;
+    }
+    .hero-screen{
+        background-image: url("../img/1200back.png");
+    }
+    .pillow-img {
+        top: 320px;
+        right: -330px;
+    }
+    .reviews-wrapper{
+        gap: 10px;
+    }
+    .image-block img{
+        margin-left: 14px;
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .discount-banner{
+        position: absolute;
+        top: 286px;
+        left: -640px;
+    }
+    .header-links {
+        gap: 20px;
+    }
+    .hero-text p {
+        font-size: 18px;
+    }
+    .hero .button {
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+    .table-block img {
+        max-width: 800px;
+    }
+    .features {
+        padding: 60px 40px;
+    }
+    .features h2 {
+        font-size: 28px;
+    }
+    .feature-item img {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-item p {
+        font-size: 18px;
+    }
+    .section {
+        padding: 40px 15px;
+    }
+    .two-columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .product-features img {
+        max-width: 100%;
+    }
+    .pillow-img {
+        width: 500px;
+        top: 414px;
+        right: -104px;
+    }
+    .icons {
+        margin-top: 60px;
+    }
+    .woman-img {
+        display: none;
+    }
+    .btn {
+        width: 100%;
+        padding: 14px;
+        font-size: 18px;
+    }
+    .price {
+        margin-top: 238px;
+    }
+    .price-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .review-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-block img {
+        width: 100%;
+        height: auto;
+    }
+    .text-content{
+        display: block;
+    }
+    .icon_arrow {
+        display: none;
+    }
+    .hero-screen{
+        background-image: url("../img/992back.png");
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 90%;
+        text-align: center;
+    }
+    .discount-banner{
+        transform: none;
+        top: -40px;
+        left: -782px;
+        font-size: 32px;
+    }
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .header-links {
+        display: none;
+    }
+    .hero-image {
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .hero-text {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .table-block img {
+        max-width: 530px;
+    }
+    .features-list {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .comfort-cards {
+        gap: 10px;
+    }
+    .quote-block{
+        justify-content: normal;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+    .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .video iframe {
+        width: 100%;
+        height: auto;
+    }
+    .discount-badge-feat{
+        right: -8px;
+    }
+    .gift {
+        right: 40px;
+    }
+    .text-content{
+        display: block;
+    }
+    .icon_arrow {
+        display: none;
+    }
+    .pillow-img{
+        width: 470px;
+        right: 54px;
+        top: 462px;
+    }
+
+    .icons{
+        padding-left: 100px;
+    }
+    .comfort-text{
+        text-align: center;
+        font-size: 28px;
+    }
+    .thin-text{
+        font-size: 52px;
+    }
+    .price{
+        margin-top: 256px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media (max-width: 540px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .discount-banner {
+        transform: none;
+        top: -40px;
+        left: -740px;
+        font-size: 32px;
+    }
+
+    .discount-badge-bottom {
+        top: -38px;
+        right: 12px;
+    }
+
+    .icon_arrow {
+        display: none;
+    }
+
+    .comfort-cards {
+        gap: 10px;
+    }
+
+    .table-block img {
+        max-width: 348px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .quote-block {
+        justify-content: normal;
+    }
+
+    .features-wrapper {
+        margin-bottom: 34px;
+    }
+
+    .comfort-text {
+        font-size: 18px;
+    }
+
+    .video-section {
+        margin-bottom: 48px;
+    }
+
+    .video-text {
+        font-size: 26px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .highlight-yellow {
+        font-size: 26px;
+    }
+
+    .thin-text {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .features h2 {
+        font-size: 24px;
+    }
+
+    .note-charact {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    .video-wrapper {
+        gap: 40px;
+    }
+
+    .discount-badge-feat {
+        right: 14px;
+    }
+
+    .gift {
+        right: 40px;
+    }
+
+    .text-content {
+        display: block;
+    }
+
+    .delivery-info p {
+        font-size: 14px;
+    }
+    .pillow-img{
+        right: 20px;
+        top: 364px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .pillow-img {
+        max-width: 390px;
+        right: 22px;
+        top: 338px;
+    }
+    .highlight-orange{
+        font-size: 28px;
+    }
+    .highlight-blue{
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 46px;
+        margin-top: 20px;
+    }
+
+    .bold-text {
+        font-size: 58px;
+    }
+    .hero-left{
+        margin-left: 0px;
+    }
+
+    .discount-banner {
+        left: -708px;
+    }
+    .image-block img{
+        margin-left: 0px;
+        max-width: 380px;
+    }
+    .features-wrapper {
+        gap: 10px;
+    }
+
+    .price {
+        margin-top: 214px;
+        font-size: 20px;
+    }
+    .comfort-section{
+        margin-bottom: 10px;
+    }
+    .benefits-section{
+        padding: 10px 20px;
+    }
+
+    .icons {
+        margin-top: 20px;
+        padding-left: 34px;
+    }
+    .hero-screen{
+        margin-bottom: 10px;
+    }
+    .btn-main{
+        margin-bottom: 30px;
+
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    body {
+        font-size: 15px;
+    }
+    .header-links {
+        display: none;
+    }
+    .discount-banner{
+        transform: none;
+        top: -40px;
+        font-size: 28px;
+        left: -650px;
+    }
+    .discount-badge-bottom{
+        top: -38px;
+        right: 12px;
+    }
+    .comfort-cards{
+        gap: 10px;
+    }
+    .icon_arrow {
+        display: none;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .highlight-yellow{
+        font-size: 26px;
+    }
+    .price{
+        margin-top: 198px;
+    }
+
+    .quote-block{
+        justify-content: normal;
+    }
+    .video-section{
+        margin-bottom: 48px;
+    }
+    .thin-text {
+        font-size: 28px;
+    }
+    .discount-badge-feat{
+        right: 14px;
+    }
+    .icons{
+        gap: 4px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .delivery-info p{
+        font-size: 14px;
+    }
+    .comfort-text {
+        font-size: 22px;
+    }
+    .header-links {
+        display: none;
+    }
+    .table-block img {
+        max-width: 280px;
+    }
+    .price-bottom{
+        display: grid;
+        justify-content: center;
+        gap: 14px;
+    }
+    .features-wrapper{
+        margin-bottom: 34px;
+    }
+    .woman-img {
+        display: none;
+    }
+
+    h1, h2 {
+        font-size: 34px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .order-form input, .order-form select {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .video-text{
+        font-size: 22px;
+        text-align: center;
+        gap: 40px;
+    }
+    .note-charact{
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .video-wrapper{
+        gap: 40px;
+    }
+    .gift {
+        right: 40px;
+    }
+    .text-content{
+        display: block;
+    }
+    .bold-text{
+        font-size: 50px;
+    }
+    .pillow-img {
+        max-width: 392px;
+        right: 0px;
+        top: 362px;
+    }
+    .price{
+        font-size: 10px;
+        margin-top: 194px;
+    }
+    .description{
+        font-size: 16px;
+        padding: 14px;
+    }
+    .comfort-section{
+        margin-bottom: 18px;
+    }
+    .benefits-list li{
+        font-size: 16px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    .benefits-section-title{
+        margin-bottom: 30px;
+    }
+    .image-block img {
+        margin-left: 0px;
+        max-width: 340px;
+    }
+    .features-wrapper{
+        gap: 30px;
+    }
+    .price-bottom{
+        margin-bottom: 20px;
+
+    }
+    .note-bottom{
+        margin-bottom: 20px;
+    }
+    .video-wrapper{
+        gap: 20px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .table-block img {
+        max-width: 314px;
+    }
+    .reviews-section{
+        padding: 10px 20px;
+    }
+.note-charact{
+    margin-bottom: 10px;
+}
+.bottom-text{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+    .features-list li{
+        font-size: 16px;
+    }
+    .benefits-section{
+        padding: 10px 20px;
+        }
+
+    .features-section h2{
+        margin-bottom: 30px;
+    }
+    .benefits-blue-dark{
+        font-size: 24px;
+
+    }
+    .highlight-blue{
+        font-size: 24px;
+    }
+    .highlight-orange {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .pillow-img {
+        max-width: 350px;
+        right: 0px;
+        top: 332px;
+    }
+
+    юdescription {
+        font-size: 14px;
+    }
+
+    .discount-banner {
+        transform: none;
+        top: -40px;
+        left: -622px;
+        font-size: 26px;
+    }
+
+    .table-block img {
+        max-width: 280px;
+    }
+
+    .features-wrapper {
+        margin-bottom: 34px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .comfort-cards {
+        gap: 10px;
+    }
+
+    .video-section {
+        margin-bottom: 48px;
+    }
+
+    .delivery-info p {
+        font-size: 14px;
+    }
+
+    .highlight-yellow {
+        font-size: 26px;
+    }
+
+    .discount-badge-bottom {
+        top: -50px;
+        right: 10px;
+    }
+
+    .price-bottom {
+        display: grid;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .video-section {
+        margin-bottom: 10px;
+    }
+
+    .characteristics {
+        padding: 10px 20px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .woman-img {
+        display: none;
+    }
+
+    .quote-block {
+        justify-content: normal;
+    }
+
+    .video-text {
+        font-size: 22px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .note-charact {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    .delivery-info p {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 30px 10px;
+    }
+
+    .video-wrapper {
+        gap: 40px;
+    }
+
+    .discount-badge-feat {
+        right: 14px;
+    }
+
+    .gift {
+        right: 40px;
+    }
+
+    .text-content {
+        display: block;
+    }
+
+    .bold-text {
+        font-size: 42px;
+    }
+
+    .icons {
+        margin-left: -26px;
+    }
+
+    .image-block img {
+        margin-left: 0px;
+        max-width: 300px;
+    }
+
+    .bottom-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 280px) {
+    html {
+        font-size: 14px;
+    }
+    .pillow-img {
+        max-width: 350px;
+        right: -8px;
+        top: 356px;
+    }
+    .discount-badge-bottom {
+        top: -50px;
+        right: 10px;
+    }
+    .bottom-text{
+        font-size: 18px;
+    }
+
+    .table-block img {
+        max-width: 266px;
+    }
+
+    .video-wrapper {
+        gap: 40px;
+    }
+
+    .features-wrapper {
+        margin-bottom: 34px;
+    }
+    .video-section {
+        margin-bottom: 10px;
+    }
+
+    .price-bottom {
+        display: grid;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .video-section {
+        margin-bottom: 48px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .discount-banner {
+        transform: none;
+        top: -40px;
+        font-size: 24px;
+        left: -612px;
+    }
+
+    .delivery-info p {
+        font-size: 14px;
+    }
+
+    .highlight-yellow {
+        font-size: 26px;
+    }
+
+    .note-charact {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    .comfort-cards {
+        gap: 10px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .quote-block {
+        justify-content: normal;
+    }
+
+    .woman-img {
+        display: none;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .characteristics {
+        padding: 0px 20px;
+    }
+
+    .video-text {
+        font-size: 22px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .discount-badge-feat {
+        right: 14px;
+    }
+
+    .gift {
+        right: 40px;
+    }
+
+    .text-content {
+        display: block;
+    }
+}
+
+
+
+
+
+
