@@ -9,6 +9,9 @@
         top: 312px;
         left: -634px;
     }
+    .arrow-bottom{
+        right: 560px;
+    }
     .woman-img{
         display: none;
     }
@@ -30,6 +33,9 @@ background-image: url("../img/1400back.png");
         transform: rotate(24deg);
         top: 298px;
     }
+    .arrow-bottom{
+        right: 850px;
+    }
 
     .hero-screen{
         background-image: url("../img/1600back.png");
@@ -46,7 +52,7 @@ background-image: url("../img/1400back.png");
         left: -648px;
     }
     .arrow-bottom{
-        display: none;
+        right: 470px;
     }
     .header-links {
         gap: 20px;
@@ -167,6 +173,9 @@ background-image: url("../img/1400back.png");
     .hero-screen{
         background-image: url("../img/992back.png");
     }
+    .arrow-bottom {
+        right: 360px;
+    }
 }
 
 
@@ -239,6 +248,9 @@ background-image: url("../img/1400back.png");
     }
     .icon_arrow {
         display: none;
+    }
+    .arrow-bottom {
+        right: 146px;
     }
     .pillow-img{
         width: 470px;
@@ -369,6 +381,9 @@ background-image: url("../img/1400back.png");
         right: 20px;
         top: 364px;
     }
+    .arrow-bottom {
+        display: none;
+    }
 }
 
 
@@ -429,6 +444,9 @@ background-image: url("../img/1400back.png");
     .btn-main{
         margin-bottom: 30px;
 
+    }
+    .arrow-bottom {
+        display: none;
     }
 }
 
@@ -620,6 +638,9 @@ background-image: url("../img/1400back.png");
     .highlight-orange {
         font-size: 24px;
     }
+    .arrow-bottom {
+        display: none;
+    }
 
 }
 
@@ -635,7 +656,7 @@ background-image: url("../img/1400back.png");
         top: 332px;
     }
 
-    юdescription {
+    .description {
         font-size: 14px;
     }
 
@@ -759,6 +780,9 @@ background-image: url("../img/1400back.png");
 
     .bottom-text {
         font-size: 18px;
+    }
+    .arrow-bottom {
+        display: none;
     }
 }
 

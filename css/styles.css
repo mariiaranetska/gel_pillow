@@ -699,7 +699,7 @@ h1 {
 }
 .arrow-bottom {
     position: absolute;
-    right: 880px;
+    right: 560px;
     top: 60px;
 }
 
@@ -911,6 +911,9 @@ h1 {
 
 .confidential-note {
     font-size: 11px;
+}
+.owl-carousel{
+    display: flex;
 }
 
 .bottom-text {
