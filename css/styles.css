@@ -1,9 +1,9 @@
 
 .montserrat-uniquifier {
-                 font-family: "Montserrat", sans-serif;
-                 font-optical-sizing: auto;
-                 font-style: normal;
-             }
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 
 *{
@@ -79,6 +79,11 @@ header {
     border-radius: 20px;
     text-decoration: none;
     color: #fff;
+}
+.head-btn:hover {
+    background-color: #5EDAE1;
+    color: black;
+    transition: 0.4s;
 }
 
 h1 {
@@ -704,14 +709,22 @@ h1 {
 }
 
 .reviews-wrapper {
+    max-width: 1100px;
     display: flex;
-    gap: 28px;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: center;;
+    gap: 10px;
+    /*margin-top: 70px;
+    */
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
 }
 
 .review-card {
+    max-width: 360px;
+    height: 520px;
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -722,6 +735,46 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
+.owl-dots {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dots{
+    text-align: center;
+
+    .owl-dot{
+        span{
+            display: inline-block;
+            margin: 10px;
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: #127AD3;
+        }
+        &.active{
+            span{
+                background-color: #1061A0;
+            }
+        }
+    }
+}
+/*
+.owl-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background: #ccc;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.owl-dot.active {
+  background: #1061A0;
+}
+*/
 
 .stars {
     color: #ff7f0a;
@@ -946,6 +999,13 @@ footer {
     list-style: none;
     font-size: 12px;
     font-weight: 400;
+}
+.footer-links ul li a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
 }
 
 .discount-bottom {
